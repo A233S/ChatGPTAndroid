@@ -14,7 +14,7 @@ object RetrofitInstance {
         .writeTimeout(1, TimeUnit.MINUTES)
         .build()
 
-    private const val BASE_URL = "https://api.openai.com/"
+    private const val BASE_URL = "https://oneapi.run.goorm.io/"
 
     private val client = Retrofit
         .Builder()
